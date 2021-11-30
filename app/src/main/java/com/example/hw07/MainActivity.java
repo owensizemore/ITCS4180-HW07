@@ -12,7 +12,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = new Intent(this, MapsActivity.class);
-        startActivity(intent);
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.containerView, new HomeFragment())
+                .commit();
     }
 }

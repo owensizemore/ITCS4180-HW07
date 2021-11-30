@@ -9,4 +9,6 @@
     <string name="create_new_account">Create New Account</string>
     <string name="cancel">Cancel</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="start_new_journey">Start New Journey</string>
+    <string name="view_past_journeys">View Past Journeys</string>
 </resources>
